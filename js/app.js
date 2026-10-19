@@ -17,7 +17,7 @@
     search: svg('<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>'),
   };
 
-  const CATEGORIES = ['All', 'Arcade', 'Puzzle', 'Strategy'];
+  const CATEGORIES = ['All', 'Arcade', 'Puzzle', 'Strategy', 'Reflex'];
   let filter = 'All';
   let query = '';
   let current = null; // { game, instance, enter }
@@ -229,6 +229,7 @@
       stage,
       options,
       setScore(value, animate) {
+        if (game.noScore) return;
         stat('score', game.scoreLabel || 'Score', GL.format(game, value), animate !== false);
       },
       stat,
