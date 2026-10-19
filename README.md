@@ -1,6 +1,6 @@
 # gameslol
 
-A small, clean arcade of 21 browser games. No build step, no dependencies, no ads.
+A small, clean arcade of 25 browser games. No build step, no dependencies, no ads.
 
 | Game | Category | Highlights |
 | --- | --- | --- |
@@ -25,6 +25,10 @@ A small, clean arcade of 21 browser games. No build step, no dependencies, no ad
 | **Echo** | Reflex | Simon-style memory sequence with tones |
 | **Reaction** | Reflex | Five-try reaction time average |
 | **Whack-a-Mole** | Reflex | 30-second round with golden moles and bombs |
+| **Chess** | Strategy | Full rules (castling, en passant, promotion, repetition, 50-move), alpha-beta engine, undo, move list |
+| **Solitaire** | Strategy | Klondike, draw 1 or 3, drag-and-drop or tap-to-move, undo, hints, auto-finish |
+| **Snake Duel** | Arcade | Two snakes, first to 3 rounds: vs a pathfinding AI or 2 players on one keyboard |
+| **Maze Chase** | Arcade | Pac-Man-style maze with four ghost personalities, power pellets, tunnel and levels |
 
 Shared features: light/dark theme (follows your system, toggle in the top bar), best scores saved in
 `localStorage`, keyboard shortcuts (`R` restart, `P` pause, `/` search), swipe and touch controls,
